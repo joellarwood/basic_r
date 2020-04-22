@@ -1,0 +1,38 @@
+---
+title: "Anova in R"
+output: html_notebook
+---
+
+# An overview of running ANOVA in R
+
+For this analysis we will be doing a mixed anova. It has 2 between variables (condition: facebook, no facebook) and three within conditions (timepoint: t1, t2, t3). The data is taken from Vanman, Tobin, and Baker (2018). The journal article can be found [here](https://www.tandfonline.com/doi/abs/10.1080/00224545.2018.1453467?journalCode=vsoc20) and the OSF page can be found [here](https://www.tandfonline.com/doi/abs/10.1080/00224545.2018.1453467?journalCode=vsoc20).  
+
+# Analysis using R markdwon 
+
+A good [reference guide for RMarkdown](https://rmd4sci.njtierney.com/) has been written by [Nick Tierney] (https://www.njtierney.com/) 
+
+## Set options 
+
+```{r setup , include=TRUE}
+knitr::opts_chunk$set(echo = TRUE, 
+                      fig.align = "center",
+                      fig.width = 4, 
+                      fig.height = 4, 
+                      dev = "png",
+                      cache = TRUE, 
+                      message = FALSE)
+```
+
+# install packages
+
+For the anova analysis we will need the pacakges `afex`, `tidyverse`, and, `apa`.
+```{r library}
+library(tidyverse)
+library(afex)
+library(apa)
+```
+
+# Load data
+
+The data have already been cleaned. For this analysis we are only going to look at the three timepoints of cortisol and their differences across the two facebook groups. 
+

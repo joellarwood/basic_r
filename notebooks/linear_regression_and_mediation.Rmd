@@ -1,0 +1,40 @@
+---
+title: "Linear regression and mediation"
+output: html_notebook
+---
+
+# An overview of running linear regression and mediation in R
+
+For this analysis we will be doing heirachial linear models and mediation analyses. The data we are using comes from Larwood (unpublished) and the data can be found [here](https://raw.githubusercontent.com/joellarwood/MusicEmoRegInRumination/master/data/s2Processed.csv). The cleaning of the data can be seen in the r script `cleaning_larwood_2017.R` which is in the `script` subfolder. We will also be using data from Larwood, Vanman, and Dingle (2020). The data for this project has also been cleaned, this time using the script `cleaning_larwood_2020.R` in the `script` folder. The paper for this data can be found [here]() and the OSF page [here]()
+
+# Analysis using R markdwon 
+
+A good [reference guide for RMarkdown](https://rmd4sci.njtierney.com/) has been written by [Nick Tierney] (https://www.njtierney.com/) 
+
+## Set options 
+Th
+```{r setup , include=TRUE}
+knitr::opts_chunk$set(echo = TRUE, 
+                      fig.align = "center",
+                      fig.width = 4, 
+                      fig.height = 4, 
+                      dev = "png",
+                      cache = TRUE, 
+                      message = FALSE)
+```
+
+# install packages
+
+For the anova analysis we will need the pacakges `sjPlot`, `tidyverse`, and, `lavaan`.
+```{r library}
+library(tidyverse)
+library(sjPlot)
+library(lavaan)
+```
+
+## Mediation 
+
+### Lavaan 
+
+The `lavaan` (latent variable analysis) package gives a set of functions to perform linear models including CFA, LGM, SEM, and mediation. We are just going to do mediation and an tutorial can be found on the [`lavaan` webpage](http://lavaan.ugent.be/tutorial/mediation.html)
+

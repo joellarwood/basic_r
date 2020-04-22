@@ -1,0 +1,122 @@
+cond,age,gender,t1_panas_neg,t2_panas_neg,condition
+1,18,male,21,27,Control
+2,21,female,20,24,No Facebook
+1,18,male,30,31,Control
+1,21,male,26,25,Control
+1,18,male,26,22,Control
+1,18,male,25,25,Control
+2,19,female,20,23,No Facebook
+1,21,female,19,24,Control
+2,18,female,30,29,No Facebook
+2,21,female,31,25,No Facebook
+2,22,female,29,25,No Facebook
+1,22,female,22,23,Control
+1,23,male,25,23,Control
+2,35,male,20,23,No Facebook
+1,30,female,30,25,Control
+1,33,female,25,32,Control
+2,35,male,27,19,No Facebook
+1,32,female,27,28,Control
+2,21,female,32,26,No Facebook
+2,24,female,24,33,No Facebook
+1,25,female,29,22,Control
+2,33,male,28,29,No Facebook
+2,25,female,30,22,No Facebook
+1,21,male,41,42,Control
+1,22,female,34,27,Control
+1,18,male,26,26,Control
+1,28,female,25,25,Control
+2,24,female,37,34,No Facebook
+1,40,female,36,26,Control
+2,28,female,23,33,No Facebook
+2,23,female,24,26,No Facebook
+1,27,female,24,26,Control
+1,22,female,16,19,Control
+1,32,female,28,16,Control
+2,39,male,19,17,No Facebook
+1,19,female,29,18,Control
+1,18,male,25,27,Control
+2,20,female,31,32,No Facebook
+2,25,female,26,24,No Facebook
+1,24,female,22,24,Control
+2,24,female,20,27,No Facebook
+2,21,male,38,40,No Facebook
+2,23,male,28,29,No Facebook
+1,19,female,24,30,Control
+1,23,male,39,32,Control
+2,30,female,29,31,No Facebook
+1,21,female,17,15,Control
+1,27,female,19,15,Control
+1,20,male,30,31,Control
+1,22,female,23,20,Control
+1,18,female,21,23,Control
+1,21,female,32,32,Control
+1,22,female,27,27,Control
+2,23,female,35,36,No Facebook
+1,40,male,18,16,Control
+2,24,male,23,23,No Facebook
+2,25,female,30,24,No Facebook
+1,22,female,27,27,Control
+2,22,male,19,27,No Facebook
+2,19,female,32,30,No Facebook
+2,18,female,26,28,No Facebook
+1,22,female,30,26,Control
+2,22,female,30,30,No Facebook
+2,25,female,15,22,No Facebook
+2,20,female,17,27,No Facebook
+1,23,male,23,21,Control
+2,23,female,31,26,No Facebook
+2,28,female,27,28,No Facebook
+1,21,female,27,24,Control
+1,18,female,19,25,Control
+1,19,male,26,27,Control
+1,20,male,21,11,Control
+2,18,female,28,27,No Facebook
+2,18,female,28,25,No Facebook
+2,19,male,31,28,No Facebook
+1,19,male,21,24,Control
+2,21,female,26,25,No Facebook
+2,21,female,24,21,No Facebook
+1,22,female,30,24,Control
+2,19,female,28,21,No Facebook
+2,20,male,29,30,No Facebook
+2,19,female,22,23,No Facebook
+2,20,male,31,29,No Facebook
+2,22,female,27,27,No Facebook
+2,22,female,25,21,No Facebook
+1,24,male,25,27,Control
+1,21,male,39,38,Control
+1,18,female,24,31,Control
+2,19,male,19,13,No Facebook
+1,25,male,21,21,Control
+1,19,male,29,30,Control
+1,19,male,34,27,Control
+1,19,female,26,21,Control
+2,19,female,23,19,No Facebook
+1,39,female,29,29,Control
+2,19,female,29,28,No Facebook
+1,19,male,27,24,Control
+1,18,female,22,23,Control
+1,18,female,28,36,Control
+2,18,female,29,28,No Facebook
+2,18,female,21,28,No Facebook
+2,18,male,27,29,No Facebook
+2,21,male,25,25,No Facebook
+1,20,female,29,21,Control
+1,19,female,28,25,Control
+1,20,female,19,16,Control
+1,18,female,28,26,Control
+1,21,female,34,36,Control
+2,22,male,26,25,No Facebook
+1,23,male,40,32,Control
+2,21,female,29,24,No Facebook
+1,19,female,26,21,Control
+2,25,female,28,26,No Facebook
+1,22,female,28,17,Control
+1,20,female,28,26,Control
+2,19,male,30,20,No Facebook
+1,22,female,35,24,Control
+1,26,female,26,32,Control
+2,25,male,25,27,No Facebook
+2,23,male,26,29,No Facebook
+1,27,female,18,14,Control
