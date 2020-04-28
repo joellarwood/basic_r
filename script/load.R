@@ -9,7 +9,7 @@ install.packages(c
   "apaTables", # package to create apa formatted tables
   "afex", # package to analyse factorial designs
   "sjPlot", # package to aid the visualisation of linear models
-  "laavan" # strucutrual equation modelling (incl. path analysis, mediation and CFA)
+  "lavaan" # strucutrual equation modelling (incl. path analysis, mediation and CFA)
 ))
 
 n
